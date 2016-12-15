@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
                    高性能 URLMatcher .
                    DESC
 
-  s.homepage     = "https://git.hz.netease.com/mobile/HTR3"
+  s.homepage     = "https://github.com/NEYouFan/HTR3"
 
   s.license      = "MIT"
 
-  s.author             = { "hzzhangping" => "hzhzzhangping@corp.netease.com" }
+  s.author             = { "netease" }
 
   s.source       = { :git => "https://git.hz.netease.com/git/mobile/HTR3.git" }
 
