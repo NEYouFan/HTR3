@@ -57,7 +57,7 @@ struct _node {
     pcre * pcre_pattern;
     pcre_extra * pcre_extra;
 #else
-    NSRegularExpression *regularExpression;
+    __unsafe_unretained NSRegularExpression *regularExpression;
 #endif
     route ** routes;
 
