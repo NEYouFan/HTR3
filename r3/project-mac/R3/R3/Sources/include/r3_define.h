@@ -20,7 +20,7 @@ typedef unsigned char bool;
 #endif
 
 // #define DEBUG 1
-#ifdef DEBUG
+#ifdef 0 //DEBUG
 
 #define info(fmt, ...) \
             do { fprintf(stderr, fmt, ##__VA_ARGS__); } while (0)
