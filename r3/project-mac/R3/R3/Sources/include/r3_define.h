@@ -19,8 +19,8 @@ typedef unsigned char bool;
 #    define TRUE 1
 #endif
 
-// #define DEBUG 1
-#ifdef 0 //DEBUG
+#define SHOWINFO 0
+#ifdef SHOWINFO //DEBUG
 
 #define info(fmt, ...) \
             do { fprintf(stderr, fmt, ##__VA_ARGS__); } while (0)
